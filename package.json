@@ -1,0 +1,31 @@
+{
+  "name": "week-8-day-3-assignment",
+  "version": "1.0.0",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "vitest",
+    "test:run": "vitest run",
+    "test:coverage": "vitest run --coverage"
+  },
+  "keywords": [],
+  "author": "Abdisamad6378",
+  "license": "ISC",
+  "description": "Unit, API and React component tests with Vitest, Supertest and React Testing Library",
+  "dependencies": {
+    "cors": "^2.8.6",
+    "express": "^5.3.0",
+    "react": "^19.3.1",
+    "react-dom": "^19.3.1"
+  },
+  "devDependencies": {
+    "@testing-library/jest-dom": "^6.9.1",
+    "@testing-library/react": "^16.3.3",
+    "@testing-library/user-event": "^14.6.10",
+    "@vitejs/plugin-react": "^6.3.0",
+    "@vitest/coverage-v8": "^4.1.12",
+    "jsdom": "^29.1.1",
+    "supertest": "^7.3.2",
+    "vitest": "^4.1.12"
+  }
+}
